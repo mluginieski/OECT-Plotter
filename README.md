@@ -14,7 +14,7 @@ It takes use of a `Settings.py` file where some important settings are defined, 
         - PlotterClass.py
           
 **Examples:**</br>
-Please, see the examples folder.
+Please, see some examples below or in the Codes/main.py and Codes/PlotterMain.py files.
 
 ## Class Constructor
 
