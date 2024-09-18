@@ -54,10 +54,11 @@ W = np.array([150e-6, 200e-6, 250e-6, 300e-6, 350e-6, 400e-6]) # For compare dev
 
 plo.Transf(VDS, fileNames)                                     # Plot transfer curves in linear and log scale, plot the set of all curves of a single device
                                                                # transconductance, max tranconductance and OnOff ratio (of a single device)
-                                                               # Returnn a data file with all gm,max and OnOff off all data from fileNames
+                                                               # Return a data file with all gm,max and OnOff off all data from fileNames
 
 plo.Threshold(fileNames, VDS)                                  # Perform the linear fitting of the sqrt(Ids) x Vgs curve and find the Threshold voltage
                                                                # Takes use of the LinearModel.py, finding automatically the best linear region
+                                                               # The fitting window can be adjusted in the 'Settings.py' file
                                                                # Returns an output file with all Vt of different devices from fileNames dictionary.
 
 plo.TrendThreshold(0.6, W, ['Threshold/Threshold_All.csv'])    # Plot the Threshold voltage x channel width for a given drain voltage.
