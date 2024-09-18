@@ -11,6 +11,10 @@
 #                                                                                      #
 ########################################################################################
 
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 
+# At the moment .csv and .txt files are considered. For different data files, please see and change accordingly the PlotterMain.py file
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! 
+
 import numpy as np
 import PlotterMain as plo
 
