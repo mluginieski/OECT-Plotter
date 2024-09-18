@@ -26,7 +26,7 @@ import PlotterMain as plo
 fileNames = {'IxV_fileName_001.csv'    : ['#1_T1', 'ML', 'M1'],
              'IxV_fileName_002.csv'    : ['#1_T1', 'ML', 'M2']}
 
-plt.IxV(fileNames)                                             # Plots lin and log scale IxV curves and display the resistance
+plo.IxV(fileNames)                                             # Plots lin and log scale IxV curves and display the resistance
 
 
 ################ Output ################
