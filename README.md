@@ -4,6 +4,20 @@ The `Plotter` class provides an easy-to-use interface for creating line and scat
 
 It takes use of a `Settings.py` file where some important settings are defined, such as, graph size, font sizes, graph labels and units.
 
+# Recquired repositories
+
+The following repositories to proper working:
+- `numpy`
+- `pandas`
+- `matplotlib`
+- `scipy`
+- `scikit-learn`
+
+Just install using `pip` command:
+```python
+pip install repository name
+```
+
 **Suggested usage:**
 - `main.py` file: All data file names are defined in a `dictionary`, where the key is the file name, and additional information is provided through a `list`.
 - `PlotterMain.py`: Various types of graphs are defined here through different functions, such as `IxV`, `Output`, `Transfer`, etc.
