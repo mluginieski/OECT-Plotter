@@ -4,6 +4,18 @@ The `Plotter` class provides an easy-to-use interface for creating line and scat
 
 It takes use of a `Settings.py` file where some important settings are defined, such as, graph size, font sizes, graph labels and units.
 
+**Suggested usage:**
+- `main.py` file: All data file names are defined in a `dictionary`, where the key is the file name, and additional information is provided through a `list`.
+- `PlotterMain.py`: Various types of graphs are defined here through different functions, such as `IxV`, `Output`, `Transfer`, etc.
+  
+**Hierarchy:**
+- main.py
+    - PlotterMain.py
+        - PlotterClass.py
+          
+**Examples:**</br>
+Please, see some examples below or in the Codes/main.py and Codes/PlotterMain.py files.
+
 # Recquired repositories
 
 The following repositories to proper working:
@@ -17,18 +29,6 @@ Just install using `pip` command:
 ```python
 pip install repository name
 ```
-
-**Suggested usage:**
-- `main.py` file: All data file names are defined in a `dictionary`, where the key is the file name, and additional information is provided through a `list`.
-- `PlotterMain.py`: Various types of graphs are defined here through different functions, such as `IxV`, `Output`, `Transfer`, etc.
-  
-**Hierarchy:**
-- main.py
-    - PlotterMain.py
-        - PlotterClass.py
-          
-**Examples:**</br>
-Please, see some examples below or in the Codes/main.py and Codes/PlotterMain.py files.
 
 ## Class Constructor
 
